@@ -78,6 +78,11 @@
         <main class="py-4">
             @yield('content')
         </main>
+        <footer class="fixed-bottom">
+            <center>
+                Copyright larapus-ripa - {{date('Y')}}
+            </center>
+        </footer>
     </div>
 </body>
 </html>
